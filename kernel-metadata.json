@@ -1,0 +1,14 @@
+{
+    "id": "brain-tumor-detection-using-resnet18",
+    "title": "Brain Tumor Detection using ResNet18",
+    "code_file": "kaggle_notebook.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": true,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": [],
+    "kernel_sources": [],
+    "keywords": ["deep learning", "medical imaging", "computer vision", "pytorch", "resnet"],
+    "description": "# Brain Tumor Detection using Deep Learning\n\nThis project implements a robust deep learning system for detecting brain tumors in MRI scans using the ResNet18 architecture. The model achieves high accuracy in binary classification of brain MRI scans, determining the presence or absence of tumors.\n\n## Key Features\n- **ResNet18 Architecture**: Utilizes transfer learning with pretrained ResNet18 model\n- **Custom Dataset**: Organized MRI scans in binary classes (tumor/no-tumor)\n- **Preprocessing Pipeline**: Includes image resizing, normalization, and augmentation\n- **GPU Acceleration**: Optimized for GPU training\n- **Production-Ready**: Includes inference code for real-world applications\n\n## Technical Implementation\n- Framework: PyTorch\n- Input Size: 224x224 RGB images\n- Training Features:\n  - Transfer Learning\n  - Custom classification head\n  - Dropout for regularization\n  - Data augmentation\n\n## Project Structure\n- Modular code organization\n- Separate training and inference scripts\n- Comprehensive documentation\n- Easy-to-use prediction interface\n\nCheck out the complete implementation and documentation on GitHub for more details."}
